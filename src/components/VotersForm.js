@@ -11,6 +11,7 @@ const VotersForm = () => {
 
   const handleNameChange = (event) => {
     setVoterName(event.target.value);
+    console.log(voterName);
   };
 
   const increaseValue = () => {
@@ -20,6 +21,7 @@ const VotersForm = () => {
         [selectedOption]: prevVotes[selectedOption] + 1,
       }));
     }
+    alert(voterName +" " + "Has casted his vote");
   };
 
   return (
