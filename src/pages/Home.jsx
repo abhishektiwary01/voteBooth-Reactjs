@@ -9,6 +9,8 @@ const Home = () => {
       </div>
       <div className="flex flex-grow justify-center items-center">
         <div className="w-full max-w-md mx-auto">
+            <p className='inline-flex text-blue-400 text-2xl font-bold mb-6'>Candidate List</p>
+            <p className='inline-flex text-blue-400 text-2xl font-bold mb-6 ml-14'>Vote Recieved</p>
           <VotersForm />
         </div>
       </div>
