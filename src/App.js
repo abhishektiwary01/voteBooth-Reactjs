@@ -1,16 +1,9 @@
-
-import './App.css';
-// import VotersForm from './components/VotersForm';
-import VotingDetails from './components/VotingDetails';
+import Home from './pages/Home';
 
 function App() {
   return (
     <>
-    <div className="container">
-
-      <VotingDetails/>
-    </div>
-    {/* <VotersForm/> */}
+    <Home></Home>
     </>
   );
 }
